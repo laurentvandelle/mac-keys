@@ -10,6 +10,24 @@ export function createBracketsJsonFile(): Karabiner {
         },
         key_code: KarabinerKeyCodes.TIRET,
       },
+      {
+        modifiers: {
+          mandatory: [KarabinerModifierKeys.LEFT_OPTION],
+        },
+        key_code: KarabinerKeyCodes.TIRET,
+      },
+      {
+        modifiers: {
+          mandatory: [KarabinerModifierKeys.RIGHT_COMMAND],
+        },
+        key_code: KarabinerKeyCodes.TIRET,
+      },
+      {
+        modifiers: {
+          mandatory: [KarabinerModifierKeys.LEFT_COMMAND],
+        },
+        key_code: KarabinerKeyCodes.TIRET,
+      },
     ],
     assignKeys: [
       {
@@ -23,6 +41,24 @@ export function createBracketsJsonFile(): Karabiner {
       {
         modifiers: {
           mandatory: [KarabinerModifierKeys.RIGHT_OPTION],
+        },
+        key_code: KarabinerKeyCodes.PARENTESE_FERMANTE,
+      },
+      {
+        modifiers: {
+          mandatory: [KarabinerModifierKeys.LEFT_OPTION],
+        },
+        key_code: KarabinerKeyCodes.PARENTESE_FERMANTE,
+      },
+      {
+        modifiers: {
+          mandatory: [KarabinerModifierKeys.RIGHT_COMMAND],
+        },
+        key_code: KarabinerKeyCodes.PARENTESE_FERMANTE,
+      },
+      {
+        modifiers: {
+          mandatory: [KarabinerModifierKeys.LEFT_COMMAND],
         },
         key_code: KarabinerKeyCodes.PARENTESE_FERMANTE,
       },
@@ -42,6 +78,24 @@ export function createBracketsJsonFile(): Karabiner {
         },
         key_code: KarabinerKeyCodes.SIMPLE_GUILLEMET,
       },
+      {
+        modifiers: {
+          mandatory: [KarabinerModifierKeys.LEFT_OPTION],
+        },
+        key_code: KarabinerKeyCodes.SIMPLE_GUILLEMET,
+      },
+      {
+        modifiers: {
+          mandatory: [KarabinerModifierKeys.RIGHT_COMMAND],
+        },
+        key_code: KarabinerKeyCodes.SIMPLE_GUILLEMET,
+      },
+      {
+        modifiers: {
+          mandatory: [KarabinerModifierKeys.LEFT_COMMAND],
+        },
+        key_code: KarabinerKeyCodes.SIMPLE_GUILLEMET,
+      },
     ],
     assignKeys: [
       {
@@ -55,6 +109,24 @@ export function createBracketsJsonFile(): Karabiner {
       {
         modifiers: {
           mandatory: [KarabinerModifierKeys.RIGHT_OPTION],
+        },
+        key_code: KarabinerKeyCodes.PARENTESE_OUVRANTE,
+      },
+      {
+        modifiers: {
+          mandatory: [KarabinerModifierKeys.LEFT_OPTION],
+        },
+        key_code: KarabinerKeyCodes.PARENTESE_OUVRANTE,
+      },
+      {
+        modifiers: {
+          mandatory: [KarabinerModifierKeys.RIGHT_COMMAND],
+        },
+        key_code: KarabinerKeyCodes.PARENTESE_OUVRANTE,
+      },
+      {
+        modifiers: {
+          mandatory: [KarabinerModifierKeys.LEFT_COMMAND],
         },
         key_code: KarabinerKeyCodes.PARENTESE_OUVRANTE,
       },

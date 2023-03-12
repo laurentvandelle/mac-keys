@@ -2,7 +2,11 @@ import { createBracketsJsonFile } from './json/brackets';
 
 export enum KarabinerModifierKeys {
   RIGHT_OPTION = 'right_option',
+  LEFT_OPTION = 'left_option',
+  RIGHT_SHIFT = 'right_shift',
   LEFT_SHIFT = 'left_shift',
+  RIGHT_COMMAND = 'right_command',
+  LEFT_COMMAND = 'left_command',
 }
 
 export enum KarabinerKeyCodes {

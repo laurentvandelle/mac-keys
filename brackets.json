@@ -28,7 +28,124 @@
           "from": {
             "modifiers": {
               "mandatory": [
+                "left_option"
+              ]
+            },
+            "key_code": "equal_sign"
+          },
+          "to": [
+            {
+              "modifiers": [
                 "right_option"
+              ],
+              "key_code": "hyphen"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ]
+            },
+            "key_code": "equal_sign"
+          },
+          "to": [
+            {
+              "modifiers": [
+                "right_option"
+              ],
+              "key_code": "hyphen"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "left_command"
+              ]
+            },
+            "key_code": "equal_sign"
+          },
+          "to": [
+            {
+              "modifiers": [
+                "right_option"
+              ],
+              "key_code": "hyphen"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            },
+            "key_code": "hyphen"
+          },
+          "to": [
+            {
+              "modifiers": [
+                "right_option",
+                "left_shift"
+              ],
+              "key_code": "hyphen"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "left_option"
+              ]
+            },
+            "key_code": "hyphen"
+          },
+          "to": [
+            {
+              "modifiers": [
+                "right_option",
+                "left_shift"
+              ],
+              "key_code": "hyphen"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ]
+            },
+            "key_code": "hyphen"
+          },
+          "to": [
+            {
+              "modifiers": [
+                "right_option",
+                "left_shift"
+              ],
+              "key_code": "hyphen"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "left_command"
               ]
             },
             "key_code": "hyphen"
@@ -67,7 +184,124 @@
           "from": {
             "modifiers": {
               "mandatory": [
+                "left_option"
+              ]
+            },
+            "key_code": "4"
+          },
+          "to": [
+            {
+              "modifiers": [
                 "right_option"
+              ],
+              "key_code": "5"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ]
+            },
+            "key_code": "4"
+          },
+          "to": [
+            {
+              "modifiers": [
+                "right_option"
+              ],
+              "key_code": "5"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "left_command"
+              ]
+            },
+            "key_code": "4"
+          },
+          "to": [
+            {
+              "modifiers": [
+                "right_option"
+              ],
+              "key_code": "5"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_option"
+              ]
+            },
+            "key_code": "5"
+          },
+          "to": [
+            {
+              "modifiers": [
+                "right_option",
+                "left_shift"
+              ],
+              "key_code": "5"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "left_option"
+              ]
+            },
+            "key_code": "5"
+          },
+          "to": [
+            {
+              "modifiers": [
+                "right_option",
+                "left_shift"
+              ],
+              "key_code": "5"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ]
+            },
+            "key_code": "5"
+          },
+          "to": [
+            {
+              "modifiers": [
+                "right_option",
+                "left_shift"
+              ],
+              "key_code": "5"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "left_command"
               ]
             },
             "key_code": "5"
