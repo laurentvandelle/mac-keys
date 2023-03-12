@@ -1,9 +1,9 @@
 import { writeFile } from 'fs';
+import { jsonFileNames, jsonFiles } from './model';
 
-var obj = {
-  table: {id: 1, square:2}
-};
-
-var json = JSON.stringify(obj);
-
-writeFile('myjsonfile.json', json, () => {});
+if (require.main === module) {
+  for (const name of Object.values(jsonFileNames)) {
+    const json = JSON.stringify(jsonFiles[name], null, 2);
+    writeFile(`${name}.json`, json, (error) => console.log(error));
+  }
+}
