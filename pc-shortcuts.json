@@ -1342,16 +1342,13 @@
       ]
     },
     {
-      "description": "PC-Style Reload(F5, Ctrl+R)",
+      "description": "PC-Style Reload(F5)",
       "manipulators": [
         {
           "type": "basic",
           "from": {
-            "key_code": "r",
+            "key_code": "f5",
             "modifiers": {
-              "mandatory": [
-                "control"
-              ],
               "optional": [
                 "any"
               ]
@@ -1408,12 +1405,20 @@
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "description": "PC-Style Reload(Ctrl+R)",
+      "manipulators": [
         {
           "type": "basic",
           "from": {
-            "key_code": "f5",
+            "key_code": "r",
             "modifiers": {
+              "mandatory": [
+                "control"
+              ],
               "optional": [
                 "any"
               ]

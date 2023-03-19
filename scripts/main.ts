@@ -1,6 +1,8 @@
-import { readFile, writeFile } from 'fs';
+// @ts-ignore
+import { writeFile } from 'fs';
 import { jsonFileNames, jsonFiles } from './model';
 
+// @ts-ignore
 if (require.main === module) {
   for (const name of Object.values(jsonFileNames)) {
     const json = JSON.stringify(jsonFiles[name], null, 2);
@@ -9,9 +11,4 @@ if (require.main === module) {
       console.log(name)
     });
   }
-
-  readFile('scripts/json/config.json', 'utf8', (err, data) => {
-    if (err) console.error(err);
-    console.log(data)
-  });
 }
