@@ -1,6 +1,8 @@
 import { createBracketsJsonFile } from './json/brackets';
+import { createWindowsNumberKeysJsonFile } from './json/pc-replace-keys';
 
 export enum KarabinerModifierKeys {
+  ANY = 'any',
   RIGHT_OPTION = 'right_option',
   LEFT_OPTION = 'left_option',
   RIGHT_SHIFT = 'right_shift',
@@ -14,17 +16,18 @@ export enum KarabinerKeyCodes {
   PARENTESE_OUVRANTE = '5',
   PARENTESE_FERMANTE = 'hyphen',
   SIMPLE_GUILLEMET = '4',
+  PARAGRAPHE = '6',
 }
 
 export enum jsonFileNames {
-  PC_OPTION = 'pc-option-keys',
+  // PC_OPTION = 'pc-option-keys',
   PC_REPLACE = 'pc-replace-keys',
   BRACKETS = 'brackets',
 }
 
 export const jsonFiles: Record<string, Karabiner> = {
-  'pc-option-keys': {} as Karabiner,
-  'pc-replace-keys': {} as Karabiner,
+  // 'pc-option-keys': {} as Karabiner,
+  'pc-replace-keys': createWindowsNumberKeysJsonFile(),
   brackets: createBracketsJsonFile(),
 };
 
@@ -50,5 +53,6 @@ export type KarabinerModifier = {
 };
 
 export type KarabinerMandatoryModifier = {
-  mandatory: KarabinerModifierKeys[];
+  mandatory?: KarabinerModifierKeys[];
+  optional?: KarabinerModifierKeys[];
 };

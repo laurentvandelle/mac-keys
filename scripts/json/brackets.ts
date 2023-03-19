@@ -1,6 +1,9 @@
 import { Karabiner, KarabinerKeyCodes, KarabinerModifierKeys } from '../model';
 import { createJsonFilePLaceholder, createManipulators } from '../utils';
 
+/**
+ * Replace bracjets [] and {} windows like
+ */
 export function createBracketsJsonFile(): Karabiner {
   const closeCurlyBracket = createManipulators({
     assignShortcuts: [
