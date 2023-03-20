@@ -20,6 +20,25 @@
               "key_code": "equal_sign"
             }
           ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "left_shift"
+              ]
+            },
+            "key_code": "6"
+          },
+          "to": [
+            {
+              "modifiers": [
+                "left_shift"
+              ],
+              "key_code": "6"
+            }
+          ]
         }
       ]
     }

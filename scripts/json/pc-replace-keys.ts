@@ -3,6 +3,7 @@ import { createJsonFilePLaceholder, createManipulators } from '../utils';
 
 /**
  * Replace number to be like windows (tiré du 6)
+ * TODO: Fix shift + 6
  */
 export function createWindowsNumberKeysJsonFile(): Karabiner {
   const option6 = createManipulators({
@@ -11,6 +12,7 @@ export function createWindowsNumberKeysJsonFile(): Karabiner {
         modifiers: {
           optional: [KarabinerModifierKeys.ANY],
         },
+        // modifiers: [],
         key_code: KarabinerKeyCodes.PARAGRAPHE,
       },
     ],
@@ -21,5 +23,21 @@ export function createWindowsNumberKeysJsonFile(): Karabiner {
       },
     ],
   });
-  return createJsonFilePLaceholder('Personal keys', 'Replace number to be like windows', [...option6]);
+  const optionShift6 = createManipulators({
+    assignShortcuts: [
+      {
+        modifiers: {
+          mandatory: [KarabinerModifierKeys.LEFT_SHIFT],
+        },
+        key_code: KarabinerKeyCodes.PARAGRAPHE,
+      },
+    ],
+    assignKeys: [
+      {
+        modifiers: [KarabinerModifierKeys.LEFT_SHIFT],
+        key_code: KarabinerKeyCodes.PARAGRAPHE,
+      },
+    ],
+  });
+  return createJsonFilePLaceholder('Personal keys', 'Replace number to be like windows', [...option6, ...optionShift6]);
 }
