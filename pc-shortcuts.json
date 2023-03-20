@@ -1138,7 +1138,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "a",
+            "key_code": "q",
             "modifiers": {
               "mandatory": [
                 "control"
@@ -1150,7 +1150,7 @@
           },
           "to": [
             {
-              "key_code": "a",
+              "key_code": "q",
               "modifiers": [
                 "left_command"
               ]
