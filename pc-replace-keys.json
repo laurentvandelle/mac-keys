@@ -19,7 +19,8 @@
               "modifiers": [],
               "key_code": "equal_sign"
             }
-          ]
+          ],
+          "conditions": []
         },
         {
           "type": "basic",
@@ -38,7 +39,8 @@
               ],
               "key_code": "6"
             }
-          ]
+          ],
+          "conditions": []
         }
       ]
     }

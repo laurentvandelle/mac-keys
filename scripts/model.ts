@@ -1,4 +1,5 @@
 import { createBracketsJsonFile } from './json/brackets';
+import { createFirefoxRedoJsonFile } from './json/firefox-redo';
 import { createWindowsNumberKeysJsonFile } from './json/pc-replace-keys';
 
 export enum KarabinerModifierKeys {
@@ -9,6 +10,8 @@ export enum KarabinerModifierKeys {
   LEFT_SHIFT = 'left_shift',
   RIGHT_COMMAND = 'right_command',
   LEFT_COMMAND = 'left_command',
+  RIGHT_CONTROL = 'right_control',
+  LEFT_CONTROL = 'left_control',
 }
 
 export enum KarabinerKeyCodes {
@@ -17,18 +20,27 @@ export enum KarabinerKeyCodes {
   PARENTESE_FERMANTE = 'hyphen',
   SIMPLE_GUILLEMET = '4',
   PARAGRAPHE = '6',
+  Y = 'y',
+  Z = 'w',
+  W = 'z',
+}
+
+export enum Applications {
+  FIREFOX = '^org\\.mozilla\\.firefox$',
 }
 
 export enum jsonFileNames {
   // PC_OPTION = 'pc-option-keys',
   PC_REPLACE = 'pc-replace-keys',
   BRACKETS = 'brackets',
+  FIREFOX_REDO = 'firefox-redo',
 }
 
 export const jsonFiles: Record<string, Karabiner> = {
   // 'pc-option-keys': {} as Karabiner,
   'pc-replace-keys': createWindowsNumberKeysJsonFile(),
   brackets: createBracketsJsonFile(),
+  'firefox-redo': createFirefoxRedoJsonFile(),
 };
 
 export type Karabiner = {
