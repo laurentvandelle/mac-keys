@@ -17,9 +17,10 @@
           "to": [
             {
               "modifiers": [
-                "left_control"
+                "left_command",
+                "left_shift"
               ],
-              "key_code": "z"
+              "key_code": "w"
             }
           ],
           "conditions": [

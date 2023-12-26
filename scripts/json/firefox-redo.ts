@@ -15,38 +15,12 @@ export function createFirefoxRedoJsonFile(): Karabiner {
       },
     ],
     assignKeys: [
-      // {
-      //   modifiers: {
-      //     mandatory: [KarabinerModifierKeys.LEFT_CONTROL, KarabinerModifierKeys.LEFT_SHIFT],
-      //   },
-      //   key_code: KarabinerKeyCodes.Z,
-      // },
       {
-        modifiers: [KarabinerModifierKeys.LEFT_CONTROL],
-        key_code: KarabinerKeyCodes.W,
+        modifiers: [KarabinerModifierKeys.LEFT_CONTROL, KarabinerModifierKeys.LEFT_SHIFT],
+        key_code: KarabinerKeyCodes.Z,
       },
     ],
     onlyAppliesForThisApplications: [Applications.FIREFOX],
   });
-  // const redoFirefox2 = createManipulators({
-  //   assignShortcuts: [
-  //     {
-  //       modifiers: {
-  //         mandatory: [KarabinerModifierKeys.RIGHT_COMMAND],
-  //       },
-  //       key_code: KarabinerKeyCodes.Y,
-  //     },
-  //   ],
-  //   assignKeys: [
-  //     {
-  //       modifiers: {
-  //         mandatory: [KarabinerModifierKeys.LEFT_CONTROL, KarabinerModifierKeys.LEFT_SHIFT],
-  //       },
-  //       key_code: KarabinerKeyCodes.Z,
-  //     },
-  //   ],
-  //   onlyAppliesForThisApplications: [Applications.FIREFOX],
-  // });
   return createJsonFilePlaceholder('Personal keys', 'Firefox redo to ctrl + Y', [...redoFirefox1]);
-  // return createJsonFilePLaceholder('Personal keys', 'Firefox redo to ctrl + Y', [...redoFirefox1, ...redoFirefox2]);
 }
