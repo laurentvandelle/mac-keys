@@ -1,5 +1,5 @@
 import { Applications, Karabiner, KarabinerKeyCodes, KarabinerModifierKeys } from '../model';
-import { createJsonFilePLaceholder, createManipulators } from '../utils';
+import { createJsonFilePLaceholder as createJsonFilePlaceholder, createManipulators } from '../utils';
 
 /**
  * Replace ctrl + y to redo instead of close in firefox
@@ -22,8 +22,8 @@ export function createFirefoxRedoJsonFile(): Karabiner {
       //   key_code: KarabinerKeyCodes.Z,
       // },
       {
-        modifiers: [KarabinerModifierKeys.RIGHT_OPTION],
-        key_code: KarabinerKeyCodes.PARENTESE_FERMANTE,
+        modifiers: [KarabinerModifierKeys.LEFT_CONTROL],
+        key_code: KarabinerKeyCodes.W,
       },
     ],
     onlyAppliesForThisApplications: [Applications.FIREFOX],
@@ -47,6 +47,6 @@ export function createFirefoxRedoJsonFile(): Karabiner {
   //   ],
   //   onlyAppliesForThisApplications: [Applications.FIREFOX],
   // });
-  return createJsonFilePLaceholder('Personal keys', 'Firefox redo to ctrl + Y', [...redoFirefox1]);
+  return createJsonFilePlaceholder('Personal keys', 'Firefox redo to ctrl + Y', [...redoFirefox1]);
   // return createJsonFilePLaceholder('Personal keys', 'Firefox redo to ctrl + Y', [...redoFirefox1, ...redoFirefox2]);
 }

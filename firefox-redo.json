@@ -17,9 +17,9 @@
           "to": [
             {
               "modifiers": [
-                "right_option"
+                "left_control"
               ],
-              "key_code": "hyphen"
+              "key_code": "z"
             }
           ],
           "conditions": [
