@@ -16,7 +16,7 @@ export function createFirefoxRedoJsonFile(): Karabiner {
     ],
     assignKeys: [
       {
-        modifiers: [KarabinerModifierKeys.LEFT_CONTROL, KarabinerModifierKeys.LEFT_SHIFT],
+        modifiers: [KarabinerModifierKeys.LEFT_COMMAND, KarabinerModifierKeys.LEFT_SHIFT],
         key_code: KarabinerKeyCodes.Z,
       },
     ],
