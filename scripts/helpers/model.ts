@@ -1,6 +1,6 @@
-import { createBracketsJsonFile } from './json/brackets';
-import { createFirefoxRedoJsonFile } from './json/firefox-redo';
-import { createWindowsNumberKeysJsonFile } from './json/pc-replace-keys';
+import { createBracketsJsonFile } from '../rules/brackets';
+import { createFirefoxRedoJsonFile } from '../rules/firefox-redo';
+import { createWindowsNumberKeysJsonFile } from '../rules/pc-replace-keys';
 
 export enum KarabinerModifierKeys {
   ANY = 'any',

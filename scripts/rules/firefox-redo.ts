@@ -1,5 +1,5 @@
-import { Applications, Karabiner, KarabinerKeyCodes, KarabinerModifierKeys } from '../model';
-import { createJsonFilePLaceholder as createJsonFilePlaceholder, createManipulators } from '../utils';
+import { Applications, Karabiner, KarabinerKeyCodes, KarabinerModifierKeys } from '../helpers/model';
+import { createJsonFilePLaceholder as createJsonFilePlaceholder, createManipulators } from '../helpers/helpers';
 
 /**
  * Replace ctrl + y to redo instead of close in firefox

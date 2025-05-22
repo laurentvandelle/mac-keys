@@ -1,5 +1,5 @@
-import { Karabiner, KarabinerKeyCodes, KarabinerModifierKeys } from '../model';
-import { createJsonFilePLaceholder, createManipulators } from '../utils';
+import { createJsonFilePLaceholder, createManipulators } from '../helpers/helpers';
+import { Karabiner, KarabinerKeyCodes, KarabinerModifierKeys } from '../helpers/model';
 
 /**
  * Replace number to be like windows (tiré du 6)

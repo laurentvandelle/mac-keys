@@ -1,5 +1,5 @@
-import { Karabiner, KarabinerKeyCodes, KarabinerModifierKeys } from '../model';
-import { createJsonFilePLaceholder, createManipulators } from '../utils';
+import { Karabiner, KarabinerKeyCodes, KarabinerModifierKeys } from '../helpers/model';
+import { createJsonFilePLaceholder, createManipulators } from '../helpers/helpers';
 
 /**
  * Replace bracjets [] and {} windows like
